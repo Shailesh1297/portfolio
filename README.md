@@ -41,6 +41,11 @@ portfolio/
 ## 📱 Responsive
 The game automatically scales for **Desktop, Tablet, and Mobile**, adjusting bubble sizes and physics for the best experience on any device.
 
+## 🤝 Credits
+
+- **Shailesh Rai** - [GitHub](https://github.com/Shailesh1297)
+- **Antigravity** (Google DeepMind) - AI Pair Programmer
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

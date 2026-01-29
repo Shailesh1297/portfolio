@@ -10,6 +10,12 @@
   },
   "keywords": [],
   "author": "Shailesh Rai",
+  "contributors": [
+    {
+      "name": "Antigravity (Google DeepMind)",
+      "url": "https://deepmind.google/technologies/gemini/"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.28.6",
