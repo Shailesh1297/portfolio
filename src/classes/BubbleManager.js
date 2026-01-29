@@ -23,9 +23,10 @@ export class BubbleManager {
             let x, y;
 
             if (isSmallMobile) {
-                // Vertical layout for small phones - single column
-                x = this.scene.scale.width / 2;
-                y = (this.scene.scale.height * 0.15) + (index * (this.scene.scale.height * 0.15));
+                // Zigzag layout for small phones to prevent overlapping and improve accessibility
+                const xOffset = screenWidth * 0.22; // Offset from center
+                x = (screenWidth / 2) + (index % 2 === 0 ? -xOffset : xOffset);
+                y = (screenHeight * 0.15) + (index * (screenHeight * 0.16));
             } else if (isMobile) {
                 // Two column layout for tablets
                 const col = index % 2;
