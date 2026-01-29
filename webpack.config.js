@@ -5,7 +5,7 @@ module.exports = {
     mode: 'production',
     entry: './src/main.js',
     output: {
-        filename: 'bundle.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
@@ -32,8 +32,24 @@ module.exports = {
             template: './index.html',
             filename: 'index.html',
             inject: 'body',
-            scriptLoading: 'blocking'
+            scriptLoading: 'defer'
         })
     ],
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'all',
+                },
+            },
+        },
+    },
+    performance: {
+        maxEntrypointSize: 1500000,
+        maxAssetSize: 1500000,
+    },
     devtool: 'source-map'
 };
