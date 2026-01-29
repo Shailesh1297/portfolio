@@ -62,12 +62,11 @@ jobs:
 
       - name: Automated Versioning & Changelog
         id: changelog
-        uses: Triargos/conventional-changelog-action@v5
+        uses: TriPS-ss/conventional-changelog-action@v5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           git-user-name: "Shailesh Rai"
           git-user-email: "shailesh@example.com"
-          version-file: "./package.json"
 
       - name: Create GitHub Release
         if: steps.changelog.outputs.skipped == 'false'
