@@ -1,4 +1,13 @@
-# 1.1.0 (2026-01-29)
+# [1.2.0](https://github.com/Shailesh1297/portfolio/compare/v1.1.0...v1.2.0) (2026-01-29)
+
+
+### Features
+
+* **ui:** implement zigzag bubble layout for mobile ([#4](https://github.com/Shailesh1297/portfolio/issues/4)) ([9efc2ad](https://github.com/Shailesh1297/portfolio/commit/9efc2ad654d77e6f705fe6219dc88ec59b0aea8d))
+
+
+
+# [1.1.0](https://github.com/Shailesh1297/portfolio/compare/a435331b027140998c158048edcc75c1e7ea8f4e...v1.1.0) (2026-01-29)
 
 
 ### Bug Fixes

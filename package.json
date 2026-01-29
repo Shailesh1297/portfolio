@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "```\r portfolio/\r ├── index.html                 # Main HTML file\r ├── styles.css                 # Global styles\r ├── content.js                 # Portfolio content data\r ├── game.js                    # (Legacy - can be removed)\r └── src/\r     └── js/\r         ├── main.js           # Main entry point\r         ├── config/\r         │   └── GameConfig.js # Game configuration\r         └── classes/\r             ├── GameScene.js      # Main game scene\r             ├── Stickman.js       # Player character\r             ├── Bubble.js         # Individual bubble\r             ├── BubbleManager.js  # Manages all bubbles\r             ├── Laser.js          # Laser projectile\r             └── LaserManager.js   # Manages all lasers\r ```",
   "main": "src/main.js",
   "scripts": {
